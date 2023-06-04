@@ -1,0 +1,153 @@
+
+body{
+    margin: 50px;
+}
+
+.row{
+    border-radius: 15px;
+    box-shadow:0 0 15px #00000060;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+/* DIV LEFT */
+
+.col-lg-4.left{
+    padding: 20px;
+    text-align: center;
+}
+
+.menuImg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+label{
+
+    color:#31555d;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    position: relative;
+    font-size: 2rem;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    /* border: 2px dashed rgb(159, 159, 159);
+    border-radius: 15px; */
+    top: -20px;
+}
+
+.dayTimeMenu{
+
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px dashed #31555d46;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+select{
+    color: rgb(224, 93, 0);
+    text-transform: uppercase;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    width: 40%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid white ;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0000005d;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+/* DIV CENTER */
+
+.col-lg-4.center{
+    padding: 20px;
+    background-color: #31555d25;
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: rgb(224, 93, 0);
+}
+.city{
+    margin: auto;
+    width: 500px;
+    height: 561px;
+}
+.weather, .time, .cloud{
+    position: absolute;
+    width: 500px;
+    height: 561px;
+    border-radius: 20px;
+}
+.time{
+    z-index: 1;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+/* DIV RIGHT */
+.col-lg-4.right{
+    background-color: #0e647a5a;
+    padding: 20px;
+    border-radius: 0 15px 15px 0;
+}
+
+.btn{
+    width: 100px;
+    background-color: #31555d;
+    border: none;
+    margin: 10px;
+}
+
+.timelapse-info{
+    text-align: center;
+}
+
+.counter{
+    display: inline;
+    margin: auto;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.timelapse-info h1{
+    color: #0e647a;
+    font-size: 1.5rem;
+    margin-bottom: 2px;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+@media only screen and (max-width: 1640px) {
+
+    .city, .weather, .time, .cloud{
+        width: 340px;
+        height: 383px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    .city, .weather, .time, .cloud{
+        width: 234px;
+        height: 263px;
+    }
+    label{
+        font-size: 1rem;
+    }
+    select{
+        font-size: 0.5rem;
+    }
+    
+}
