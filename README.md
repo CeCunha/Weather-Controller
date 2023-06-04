@@ -1,4 +1,4 @@
-# Weather Controler
+# Weather Controller
  
 Page created to simulate climate control.
 Lab based JS programming course covering:
